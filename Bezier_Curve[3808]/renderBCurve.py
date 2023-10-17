@@ -51,7 +51,7 @@ def getStrokeBezier(control_num,srcStrokes):
     return np.array(in_curves)
 
 
-json_path = "./N001_0_0_MD_ccylinder.json"
+json_path = r"C:\Users\ssinc\Desktop\CityU\fyp\beziercurve\Bezier_Curve[3808]\N001_0_0_MD_ccylinder.json"
 
 ## get stroke list
 srcStrokes = readStrokes(json_path)
